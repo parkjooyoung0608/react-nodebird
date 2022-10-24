@@ -1,12 +1,18 @@
-import React from 'react';
-import AppLayout from '../components/AppLayout';
+import React from "react";
+import Head from "next/head";
+import AppLayout from "../components/AppLayout";
 
 const Profile = () => {
-    return (
-        <AppLayout>
-            <div>Profile, Next!</div>
-        </AppLayout>
-    )    
-}
+  return (
+    <>
+      <Head>
+        <title>내 프로필 | NodeBird</title>
+      </Head>
+      <AppLayout>
+        <div>Profile, Next!</div>
+      </AppLayout>
+    </>
+  );
+};
 
 export default Profile;
