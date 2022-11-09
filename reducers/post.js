@@ -9,7 +9,7 @@ export const initialState = {
       content: "첫 번째 게시글 #해시태그 #익스프레스",
       Images: [
         {
-          src: "https://ichef.bbci.co.uk/news/640/cpsprodpb/E172/production/_126241775_getty_cats.png",
+          src: "http://www.chemicalnews.co.kr/news/photo/202106/3636_10174_4958.jpg",
         },
         {
           src: "https://ichef.bbci.co.uk/news/640/cpsprodpb/9352/production/_126241773_gettyimages-1307789912-1.jpg",
